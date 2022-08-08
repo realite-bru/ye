@@ -49,18 +49,19 @@ body{
     border: 1px solid #16DB93;
     color: white;
     position: relative;
-    top: 50px;
-    left: 5px;
+    top: 30px;
+    left: 0px;
+    margin-right: 5em;
 
 }
 .te{
-    font-weight: 400;
+font-weight: 400;
 font-size: 14px;
-line-height: 21px;
+line-height: 10px;
 color: white;
 text-decoration: none;
 position: relative;
-top: -10px;
+top: -40px;
 }
 .re{
     position: relative;
