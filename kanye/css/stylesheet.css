@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter';
+    overflow: hidden;
+    background-color: black;
+}
+.container{
+    width: 25%;
+    height: 80%;
+   background-image: url("https://images.pexels.com/photos/1608099/pexels-photo-1608099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    margin:  auto;
+    background-size: cover;
+    margin-top: 5%;
+    position: relative;
+}
+.content{
+    
+    position: relative;
+    top: 50%;
+    padding: 20px;
+
+
+}
+.content h1{
+    color: #16DB93;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 9px;
+    
+}
+.content form input{
+    width: 279px;
+    height: 30px;
+    margin-bottom: 9px;
+    padding-left: 10px;
+}
+.login{
+    width: 130px;
+    height: 39px;
+    border-radius: 30px;
+    background-color: #16DB93;
+    border: 1px solid #16DB93;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: -200px;
+
+}
+.te{
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: white;
+text-decoration: none;
+position: relative;
+top: -10px;
+}
+.re{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    
+}
+.re a{
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: white;
+text-decoration: none;
+
+}
+.re .signup{
+    color: red;
+}

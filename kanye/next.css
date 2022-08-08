@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter';
+}
+.container{
+    width: 25%;
+    height: 80%;
+    background-size: cover;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.key img{
+    width: 93px;
+    height: 89px;
+    border-radius: 50px;
+    display: inline-block;
+    
+}
+.image1{
+    position: relative;
+    border-radius: 1.2em;
+    width: 500px;
+    height: 160px;
+
+}
+.lkey h1{
+    width: 92px;
+    height: 21px;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    position: relative;
+    top: -50px;
+    left: 11px;
+
+}
+.lkey h2{
+    width: 129px;
+    height: 21px;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    position: relative;
+    left: -86px;
+    top: -20px;
+}
+.icon{
+    display: flex;
+}
+.icon .yi button{
+    width: 46px;
+    height: 44px;
+    border-radius: 20px;
+    margin: 2px;
+}
+.yi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.yi p{
+    align-self: center;
+}
+.rest{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+width: 100%;
+height: 100%;
+background-color: white;
+}
+.girl{
+    width: 100%;
+    height: 30%;
+    background-image: url(https://images.pexels.com/photos/3764396/pexels-photo-3764396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+.letf{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left h1{
+    color: white;
+    font-size: 35px;
+}
+.left h2{
+    color: #16DB93;
+    font-size: 35px;
+}
+.left p {
+    color: #16DB93;
+    font-size: 20px;
+    font-weight: 900;
+}
+.pic{
+    width: 20%;
+    background-image: url(https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    border-radius: 18px;
+
+}
+.bicycle{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: scale(1.2);
+}
